@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open-Sans';
+}
+
+.container {
+    width: 100%;
+    max-width: 100%;
+    padding: 20px;
+    margin-top: 200px;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto {
+    font-size: 1.5rem; 
+}
+
+.texto p {
+    margin-left: 12%;
+}
+
+
+.img {
+    margin-top: 6px; 
+    margin-bottom: 6px; 
+    border-radius: 8px;
+}
+
+@media (max-width: 576px) {
+    .texto {
+        font-size: 1rem; 
+    }
+    
+    .img {
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+}
